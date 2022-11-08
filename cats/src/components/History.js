@@ -55,7 +55,7 @@ function History(props) {
                 
             })}
         </ul>
-        {data.length > 10 ? <div className="buttons" style={buttonsStyle}>
+        {data.length > 11 ? <div className="buttons" style={buttonsStyle}>
             <button style={butts} onClick={() => {
                 if (page !== 1) {
                     setPage(page - 1);
