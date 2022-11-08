@@ -1,7 +1,7 @@
 
 
 function None() {
-  return <div>There is no history!</div>;
+  return <div></div>;
 }
 
 export default None;
