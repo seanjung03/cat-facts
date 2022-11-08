@@ -16,11 +16,13 @@ const appStyle = {
   gap:'5px',
 }
 
+//minimal styling for history and generate fact buttons
 const butts = {
   borderRadius: "5px",
   backgroundColor: "white",
 };
 
+//making the api call
 function newFact(setCurrentFact) {
   fetch("https://catfact.ninja/fact")
     .then((data) => data.json())

@@ -1,7 +1,7 @@
 
 import { useState } from "react";
-import None from "./None";
 
+//Allowing the left right buttons to be horizontal
 const buttonsStyle = {
   display: "flex",
   flexDirection: "row",
@@ -12,6 +12,7 @@ const buttonsStyle = {
   gap: '20vw',
 };
 
+//Styling of the left right buttons
 const butts = {
     margin: "4px",
     borderRadius: "5px",
